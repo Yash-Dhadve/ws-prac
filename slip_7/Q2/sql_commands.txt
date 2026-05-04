@@ -1,0 +1,13 @@
+CREATE DATABASE staffdb;
+
+USE staffdb;
+
+CREATE TABLE staff(
+    sno INT,
+    sname VARCHAR(50),
+    designation VARCHAR(50),
+    salary DOUBLE
+);
+
+INSERT INTO staff VALUES(1,'Yash','Manager',50000);
+INSERT INTO staff VALUES(2,'Rahul','Developer',40000);

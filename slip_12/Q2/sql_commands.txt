@@ -1,0 +1,11 @@
+CREATE DATABASE logindb;
+
+USE logindb;
+
+CREATE TABLE users(
+    username VARCHAR(50),
+    password VARCHAR(50)
+);
+
+INSERT INTO users VALUES('admin','123');
+INSERT INTO users VALUES('yash','456');
